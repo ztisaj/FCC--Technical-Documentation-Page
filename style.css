@@ -34,17 +34,16 @@
 #title {
     height: 20%;
     font-family: 'Roboto', sans-serif;
-    background-color: #000;
-    border-bottom: #000 solid 2px;
+    background-color: #673ab7;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: white;
 }
 
 h1 {
     text-align: center;
     font-size: 26px;
-    color: #fff;
 }
 
 #links-div {
@@ -61,7 +60,7 @@ h1 {
     font-style: italic;
     border-bottom: #000 solid 2px;
     text-decoration: none;
-    color: #333;
+    color: #673ab7;
     height: 20%;
     padding-left: 3%;
     font-weight: bold;
@@ -69,7 +68,6 @@ h1 {
 
 .nav-link:hover {
     color: #000;
-    font-size: 24px;
 }
 
 /** main document part **/
@@ -79,7 +77,8 @@ h1 {
     font-weight: bold;
     letter-spacing: 2px;
     margin: 20px auto;
-    background-color: #c9d7dd;
+    background-color: #673ab7;
+    color: white;
     padding: 10px 20px;
 }
 
